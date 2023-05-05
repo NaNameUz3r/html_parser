@@ -19,7 +19,9 @@ git clone https://github.com/NaNameUz3r/sitemap_gen
 cd sitemap_get && go run sitemap_gen.go --url https://example.com
 ```
 
-The script will output a site-map.xml file in the current directory, by default. You can change this behavior with --out key.
+Or download binariy from [releases](https://github.com/NaNameUz3r/sitemap_gen/releases).
+
+The program will output a site-map.xml file in the current directory, by default. You can change this behavior with --out key.
 Default depth search set to 10 links, you can change this with --depth key.
 
 ### Limitations
